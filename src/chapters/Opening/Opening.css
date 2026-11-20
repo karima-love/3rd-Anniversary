@@ -1,0 +1,2 @@
+/* Opening-specific cinematic balance; shared styles live in globals.css. */
+.opening-chapter .chapter-content { position: relative; z-index: 1; }

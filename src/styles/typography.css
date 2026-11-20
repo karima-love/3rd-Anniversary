@@ -1,0 +1,6 @@
+/* Isolate language direction so English fragments don't reorder inside Arabic UI. */
+[lang='ar']{font-family:var(--arabic);unicode-bidi:isolate}
+[lang='en']{unicode-bidi:isolate}
+[dir='rtl']{direction:rtl;unicode-bidi:isolate}
+[dir='ltr']{direction:ltr;unicode-bidi:isolate}
+p,h1,h2,h3{overflow-wrap:break-word}

@@ -1,0 +1,9 @@
+Add your own photographs here with exactly these names:
+
+year-1.jpeg
+year-2.jpeg
+year-3.jpeg
+forever.jpeg
+
+Do not rename .jpg to .jpeg without actual conversion if file contents require conversion.
+This directory is intentionally shipped without personal photographs.

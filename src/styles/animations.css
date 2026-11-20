@@ -1,0 +1,8 @@
+@keyframes orbit-a{from{transform:rotate(-24deg)}to{transform:rotate(336deg)}}
+@keyframes orbit-b{from{transform:rotate(36deg)}to{transform:rotate(396deg)}}
+@keyframes slow-pulse{0%,100%{opacity:.45;transform:scale(.95)}50%{opacity:1;transform:scale(1.1)}}
+@keyframes smoke-rise{0%{opacity:0;transform:translateY(5px)}40%{opacity:.65}100%{opacity:0;transform:translateY(-30px)}}
+@keyframes soft-appear{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+@keyframes signature-first{0%,2%{opacity:0;transform:translateY(10px)}8%,22%{opacity:1;transform:translateY(0)}31%,100%{opacity:0;transform:translateY(-10px)}}
+@keyframes signature-second{0%,28%{opacity:0;transform:translateY(10px)}36%,56%{opacity:1;transform:translateY(0)}65%,100%{opacity:0;transform:translateY(-10px)}}
+@keyframes signature-third{0%,62%{opacity:0;transform:translateY(10px)}72%,100%{opacity:1;transform:translateY(0)}}

@@ -1,0 +1,5 @@
+Add your own authorized MP3 here with exactly this name:
+
+our-song.mp3
+
+The app gracefully handles the missing file until you provide it.
