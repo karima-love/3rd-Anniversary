@@ -27,7 +27,8 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: '22'
-          cache: npm
+          # No lockfile is committed yet; caching during setup-node would fail before we can generate one.
+          package-manager-cache: false
 
       - name: Prepare package lock if missing
         run: |
